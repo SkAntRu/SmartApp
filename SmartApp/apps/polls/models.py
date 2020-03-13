@@ -17,7 +17,7 @@ class Question(models.Model):
     pub_date = models.DateTimeField(verbose_name='date published')
 
 
-class Choise(models.Model):
+class Choice(models.Model):
     """docstring for ."""
 
     def __str__(self):
